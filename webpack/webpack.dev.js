@@ -3,7 +3,7 @@ const webpack = require('./webpack.common.js')
 
 module.exports = merge(webpack, {
     mode: 'development',
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
     watch: true,
     devServer: {
         //host: '0.0.0.0',
