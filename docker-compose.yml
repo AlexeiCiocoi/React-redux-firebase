@@ -1,0 +1,11 @@
+version: '2.1'
+
+services:
+    frontend:
+        build: ./
+        container_name: front
+        restart: always
+        ports:
+          - "9000:9000"
+        volumes:
+          - .:/app    
